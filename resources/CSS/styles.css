@@ -1,0 +1,32 @@
+
+
+html, body {
+    background-color: rgb(1, 46, 46);
+    color: antiquewhite;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.container p {
+    align-content: center;
+    text-align: center;
+    margin: 30px 200px;
+    
+}
+
+
+
+
+table, th, td {
+    
+    border: 1px solid rgb(230, 202, 166);
+    line-height: 2.5;
+}
+
+
+.container1 {
+    margin: 0 auto;
+    width: 50%;
+}
