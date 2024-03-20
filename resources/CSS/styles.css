@@ -1,7 +1,7 @@
 
 
 html, body {
-    background-color: rgb(1, 46, 46);
+    background-color: darkslategray;
     color: antiquewhite;
 }
 
@@ -17,12 +17,11 @@ h1, h2, h3 {
 }
 
 
-
-
 table, th, td {
     
     border: 1px solid rgb(230, 202, 166);
-    line-height: 2.5;
+    line-height: 2.0;
+    padding: 20px;
 }
 
 
