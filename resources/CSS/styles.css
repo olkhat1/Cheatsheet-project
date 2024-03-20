@@ -11,22 +11,38 @@ h1, h2, h3, p, table {
 }
 
 
+h1, h2, h3 {
+    color: goldenrod;
+}
+
+h1 {
+    letter-spacing: 0.4em;
+}
+
+h2 {
+    word-spacing: 0.5em;
+}
+
+p {
+    word-spacing: 0.3em;
+}
+
+
+.info {
+margin: 30px auto;
+width: 60%;
+
+}
 
 .container p {
     text-align: justify;
-    margin: 30px 200px;
+    margin: 30px 400px;
     
 }
 
-thead {
-    background-color: indigo;
-}
-
-
-
 table, th, td {
-    background-color: mediumslateblue;
-    border: 2px solid lavender;
+    background-color: maroon;
+    border: 2px solid goldenrod;
     border-collapse: collapse;
     line-height: 2.0;
     padding: 20px;
