@@ -5,27 +5,37 @@ html, body {
     color: antiquewhite;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p, table {
     text-align: center;
+    font-family: monospace, serif;
 }
 
+
+
 .container p {
-    align-content: center;
-    text-align: center;
+    text-align: justify;
     margin: 30px 200px;
     
 }
 
+thead {
+    background-color: indigo;
+}
+
+
 
 table, th, td {
-    
-    border: 1px solid rgb(230, 202, 166);
+    background-color: mediumslateblue;
+    border: 2px solid lavender;
+    border-collapse: collapse;
     line-height: 2.0;
     padding: 20px;
 }
 
 
+
 .container1 {
+    text-align: justify;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
